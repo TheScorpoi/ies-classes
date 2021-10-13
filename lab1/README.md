@@ -36,3 +36,11 @@
     Para passar o arguemento basta acrescentar *-Dexec.args="arg1 arg2 arg3 ..."*  
 
 ## lab1_3
+
+- Não foi necessário fazer a introdução ao Git
+
+## lab1_4
+
+## lab1_5
+
+## Review Questions

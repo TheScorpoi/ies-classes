@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ies.AppTest" time="0.033" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ies.AppTest" time="0.025" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="PT"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/jdk-15.0.1/lib"/>
-    <property name="sun.java.command" value="/home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/surefire/surefirebooter2273643922162489827.jar /home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/surefire 2021-10-13T15-50-13_733-jvmRun1 surefire15940514278444242608tmp surefire_0700054561198579884tmp"/>
+    <property name="sun.java.command" value="/home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/surefire/surefirebooter3574135557935114735.jar /home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/surefire 2021-10-13T15-57-02_037-jvmRun1 surefire17492834271586166854tmp surefire_07453963145410158244tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/test-classes:/home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/classes:/home/sobral/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/sobral/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/sobral/.m2/repository/com/squareup/retrofit2/retrofit/2.7.0/retrofit-2.7.0.jar:/home/sobral/.m2/repository/com/squareup/okhttp3/okhttp/3.14.4/okhttp-3.14.4.jar:/home/sobral/.m2/repository/com/squareup/okio/okio/1.17.2/okio-1.17.2.jar:/home/sobral/.m2/repository/com/squareup/retrofit2/converter-gson/2.6.1/converter-gson-2.6.1.jar:/home/sobral/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/surefire/surefirebooter2273643922162489827.jar"/>
+    <property name="surefire.real.class.path" value="/home/sobral/Desktop/3ANO/IES_98491/lab1/lab1_2/my-weather-radar/target/surefire/surefirebooter3574135557935114735.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="15.0.1+9-18"/>
     <property name="user.name" value="sobral"/>
@@ -50,5 +50,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="com.ies.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="com.ies.AppTest" time="0.002"/>
 </testsuite>
