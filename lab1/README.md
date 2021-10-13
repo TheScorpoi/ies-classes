@@ -31,4 +31,8 @@
 
 - **my-weather-radar** - Projeto Maven sobre a previsão do tempo
                        Em cada ficheiro java tive de por o package com.ies de modo a que o comando *mvn package* executa-se sem erros. De seguida executei o comando *mvn exec:java -Dexec.mainClass="com.ies.WeatherStarter"* para correr o programa. No entano depois de aparecer a temperatura máxima prevista para o dia em questão apareceram uns avisos relacionados com threads, pelo que percebi houve uma thread que não foi morta corretamente (?)
+                        
+    Alterei a classe WeatherStarter de modo a mostrar mais informação sobre a meteorologia, e de modo a que fosse possivel passar como argumento a localidade.
+    Para passar o arguemento basta acrescentar *-Dexec.args="arg1 arg2 arg3 ..."*  
 
+## lab1_3
