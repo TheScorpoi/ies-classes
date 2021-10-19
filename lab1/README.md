@@ -39,7 +39,10 @@
 
 - Não foi necessário fazer a introdução ao Git
 
+- **git** - projeto 
+
 ## lab1_4
+
 
 ## lab1_5
 
