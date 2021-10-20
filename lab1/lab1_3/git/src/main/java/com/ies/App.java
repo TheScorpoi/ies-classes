@@ -1,4 +1,4 @@
-package lab1.lab1_3.git.src.main.java.com.ies;
+package com.ies;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;

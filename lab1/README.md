@@ -39,11 +39,24 @@
 
 - Não foi necessário fazer a introdução ao Git
 
-- **git** - projeto 
+- **git** - projeto onde foram experimentados os Loggers do Guião
 
 ## lab1_4
 
+- Foram feitos os comandos do docker e os tutoriais
 
 ## lab1_5
 
+ - Criação da Classe *Cities.java* com os códigos das cidades, e feitas as mudanças necessárias na Classe *WeatherStarter.java* (main)
+
 ## Review Questions
+
+[A] - 
+
+[B] - 
+
+[C] -  
+
+[D] - 
+
+[E] - 
