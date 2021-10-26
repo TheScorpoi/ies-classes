@@ -1,4 +1,3 @@
-package lab1.lab1_3.git.src.test.java.com.ies;
 
 import static org.junit.Assert.assertTrue;
 
