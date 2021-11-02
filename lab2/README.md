@@ -55,3 +55,22 @@ mvn archetype:generate -DgroupId=com.tomcat_21.app -DartifactId=tomcat_webapp -D
 
 - Não entendi muito bem se oq fiz era o correto.
 
+## lab2_3
+
+#### alinea (a)
+
+ - Através do site *https://start.spring.io/* criei o novo projeto, sendo que adicionei a dependencia **Spring Web**, fiz download e unzip da pasta. Executei o comando *./mvnw spring-boot:run* e na em *http://localhost:8080* apareceu o while laber error.
+
+#### alinea (b)
+
+- Foram seguidos os passos do tutorial *https://spring.io/guides/gs/serving-web-content/*, para correr e ver o projeto em execução usei o comando *./mvnw spring-boot:run*, e no endereco *http://localhost:8080/greeting* aparecia a mensagem **Hello World**, sendo que se o endereço for mudado para, por exemplo, *http://localhost:8080/greeting?name=Pedro*, aparece **Hello Pedro**. Adicionei ainda uma home page, que tem um redirecioanmento para a pagina *http://localhost:8080/greeting*.
+
+#### alinea (c)
+
+- Foi seguido o turorial *https://spring.io/guides/gs/rest-service/*, para correr o projeto usei o comando *./mvnw spring-boot:run*, e no endereco *http://localhost:8080/greeting* aparece o fichiero JSON, com a mensagem **Hello World**, sendo que se na barra de pesquisa estiver *http://localhost:8080/greeting?name=Pedro* aparecerá **Hello Pedro**.
+- Importante denotar que cada vez que damos refresh na página o valor do id do ficheiro JSON é incrementado unitariamente.
+
+## lab2_4
+
+#### alinea (a)
+
