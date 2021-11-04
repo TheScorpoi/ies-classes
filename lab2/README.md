@@ -45,15 +45,11 @@ mvn archetype:generate -DgroupId=com.tomcat_21.app -DartifactId=tomcat_webapp -D
 
 - A excepção é quando não há nenhum *username* no dicionário, nesse caso o **NullPointerException** ocorre e aparece a mensagem que não há nenhum utilizador, sendo assim impossivel de mostrar a página em questão (*http://localhost:8080/my-web-app-1.0-SNAPSHOT/MyFirstServlet*)
 
-#### alinea (j)
-
-- Ver depois...
-
 ## lab2_2
 
 #### alinea (a)
 
-- Não entendi muito bem se oq fiz era o correto.
+- Foi seguido o turorial do site *https://examples.javacodegeeks.com/enterprise-java/jetty/embedded-jetty-server-example/* .
 
 ## lab2_3
 
@@ -72,7 +68,26 @@ mvn archetype:generate -DgroupId=com.tomcat_21.app -DartifactId=tomcat_webapp -D
 
 ## lab2_4
 
-#### alinea (a)
+- Foi seguido o tutorial *https://spring.io/guides/gs/rest-service/*, e criado os seguintes ficheiros: *Show.java, Quote.java*. A unica dependencia adicional usada do Spring foi a Spring Web
 
-- 
 
+## Review Questions
+
+[A] - O servlet container fornece ao servlet acesso fácil às propriedades da solicitação HTTP, como seus cabeçalhos e parâmetros.
+O servlet container executa as seguintes tarefas:
+1) Ele cria uma instância do servlet e chama seu método init () para inicializá-lo
+2) Ele constrói um objeto de solicitação para passar para o servlet.
+3) Ele constrói um objeto de resposta para o servlet.
+4) Ele invoca o método servlet service ().
+5) Ele chama o método destroy () do servlet para descartá-lo.
+
+[B] - O Spring Boot usa o padrão * Model-View-Controller * no qual o aplicativo é dividido em 3 partes:
+1) Quando uma solicitação HTTP é feita, o **Controlador** a recebe e processa.
+2) O **Model** funciona como um middleware entre o Controller e a View. Isso está sendo controlado pelo Controlador para atualizar a Visualização. O usuário pode ver a solicitação processada por meio da **Visualização**
+3) A função '@Controller' trata as solicitações.
+
+[C] - Os "starters" permitem que se adicione ficheiros .jar, o que faz com que o deployment seja mais rapido e fácil.
+
+[D] - As Anotacções que estao incluidas são: @Configuration , @EnableAutoConfiguration and @ComponentScan.
+
+[E] - Das melhores praticas destaco: Aceitar e responder recorrendo ao JSON, usar nomes em vez de verbos para o fim dos caminhos (paths), ter tratamento de execuções e de erros, permitir filtros, ordenação e paginacao, e manter boas praticas de segurança minimizando as vulneabilades.
