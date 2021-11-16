@@ -1,9 +1,13 @@
-package com.ies.springbootcrudexample;
+package com.ies.springbootcrudexample.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+
+import com.ies.springbootcrudexample.model.Product;
+import com.ies.springbootcrudexample.service.ProductService;
+
 
 @RestController
 public class ProductController {

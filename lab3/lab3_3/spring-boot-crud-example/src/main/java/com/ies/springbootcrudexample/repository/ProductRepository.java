@@ -1,4 +1,6 @@
-package com.ies.springbootcrudexample;
+package com.ies.springbootcrudexample.repository;
+
+import com.ies.springbootcrudexample.model.Product;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,9 +1,12 @@
-package com.ies.springbootcrudexample;
+package com.ies.springbootcrudexample.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
+import com.ies.springbootcrudexample.model.Product;
+import com.ies.springbootcrudexample.repository.ProductRepository;
 
 @Service
 public class ProductService {
