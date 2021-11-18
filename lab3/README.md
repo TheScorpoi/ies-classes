@@ -57,10 +57,18 @@ Depois foi testado com o **Thunder Client** com GET e *http://localhost:8080/api
 
 ## Review Questions
 
-[A] - 
+[A] - Explain the differences between the RestController and Controller components used in different parts of this lab.
+>- A diferença entre @RestController e @Controller é apenas que o primeiro trata-se de uma combinação de @Controller e @ResponseBody, tornando o desenvolvimento ligeiramente mais fácil
 
-[B] - 
+[B] - Create a visualization of the Spring Boot layers (UML diagramor similar), displaying the key abstractions in the solutionof 3.3, in particular: entities, repositories, servicesand REST controllers.
+Describe the role of the elements modeled in the diagram    
+>- No diretorio [./lab3](lab3) encontra-se o diagrama.
 
-[C] - 
+[C] - Explain the annotations @Table, @Colum, @Id foundin the Employee entity.
+>-@Table: Especifica a tabela na base de dados que vai guardar a entidade, neste caso está a definir-se que as entidades Employee vão ser guardadas na tabela "employees" na BD MySQL.
+>-@Column: Serve para mapear um atributo como uma coluna na tabela da base de dados.
+>-@Id: Identifica um atributo como Primary Key da tabela da base de dados
 
-[D] - 
+[D] - Explain the use of the annotation @AutoWired (in the Rest Controller class).Create UML diagrams from code in IntelliJ.
+>-No nosso caso usamos o @Autowired na property employeeRepository isto serve para evitar fazer metodos setter.
+>- "You can use @Autowired annotation on properties to get rid of the setter methods. When you will pass values of autowired properties using  Spring will automatically assign those properties with the passed values or references."
