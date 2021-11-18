@@ -51,10 +51,20 @@ Depois foi testado com o **Thunder Client** com GET e *http://localhost:8080/api
 ## lab3_3
 
 #### alinea (a)
+- As entidades criadas *Quote* e *Movie* podem ser consultadas na pasta model.
+A ligação com a base de dados foi feita com auxilio do docker e foi feita com o seguinte comando:
+```
+sudo docker run --name mysql5 -e MYSQL_ROOT_PASSWORD=secret1 -e MYSQL_DATABASE=demo -e MYSQL_USER=demo -e MYSQL_PASSWORD=secret2 -p 3000:3306 -d mysql/mysql-server:5.7
+```
 
+#### alinea (b)
+- Foi seguido o tutorial do seguinte site: *https://www.sourcecodeexamples.net/2021/08/spring-boot-project-with-controller.html*
 
+ #### alinea (c)
+- No controller foram permitodos inserir shows e quotes([./lab3/lab3_3/spring-boot-crud/src/main/java/com/employee/ies/controller](controllers))
 
-
+#### alinea (d)
+- Como falado na primeira alinea deste exercicio, usei o docker onde a forma como foi usado pode ser consultada, na alinea (a) deste exercicio.
 ## Review Questions
 
 [A] - Explain the differences between the RestController and Controller components used in different parts of this lab.
