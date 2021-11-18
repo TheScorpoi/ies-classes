@@ -51,3 +51,16 @@ Depois foi testado com o **Thunder Client** com GET e *http://localhost:8080/api
 ## lab3_3
 
 #### alinea (a)
+
+
+
+
+## Review Questions
+
+[A] - 
+
+[B] - 
+
+[C] - 
+
+[D] - 
